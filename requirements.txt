@@ -1,5 +1,5 @@
 discord
 asyncio
-pymoe
-youtube-dll
-pip
+youtube-dl
+PyNaCl
+requests
