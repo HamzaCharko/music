@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 
 client = discord.Client()
-
+BOT_TOKEN = 'NTYxNjk1MzcwMDkxMTY3NzQ0.XKAFCQ.Q5wY_ctB3AsD03tYmouethidq44'
 def __init__(self, bot):
         self.bot = bot
 
@@ -224,4 +224,4 @@ def setup(bot):
     bot.add_cog(Music(bot))
     print('Music is loaded')
 
-client.run('BOT_TOKEN')
+client.run(BOT_TOKEN)
