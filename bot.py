@@ -1,9 +1,7 @@
 import asyncio
 import discord
 from discord.ext import commands
-if not discord.opus.is_loaded():
-     
-    discord.opus.load_opus('opus')
+
 
 def __init__(self, bot):
         self.bot = bot
