@@ -223,4 +223,4 @@ def setup(bot):
     bot.add_cog(Music(bot))
     print('Music is loaded')
 
-bot.run(str(os.environ.get('BOT_TOKEN')))
+bot.run('BOT_TOKEN')
