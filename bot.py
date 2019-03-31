@@ -1,7 +1,7 @@
 import asyncio
 import discord
 from discord.ext import commands
-
+client = discord.Client()
 
 def __init__(self, bot):
         self.bot = bot
@@ -223,4 +223,4 @@ def setup(bot):
     bot.add_cog(Music(bot))
     print('Music is loaded')
 
-bot.run('BOT_TOKEN')
+client.run('BOT_TOKEN')
