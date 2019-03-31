@@ -2,4 +2,5 @@ discord
 asyncio
 youtube-dl
 PyNaCl
+opus
 requests
