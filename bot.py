@@ -1,11 +1,17 @@
 import asyncio
 import discord
 from discord.ext import commands
+from discord.voice_client import VoiceClient
+startup_extensions = ["Music"]
+bot = commmands.Bot("?")
 
 client = discord.Client()
 BOT_TOKEN = 'NTYxNjk1MzcwMDkxMTY3NzQ0.XKAFCQ.Q5wY_ctB3AsD03tYmouethidq44'
-def __init__(self, bot):
-        self.bot = bot
+class Main_commands():
+        def __init__(self.bot):
+                self.bot = bot
+
+        
 
 class VoiceEntry:
     def __init__(self, message, player):
