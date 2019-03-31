@@ -3,7 +3,10 @@ import discord
 from discord.ext import commands
 from discord.voice_client import VoiceClient
 startup_extensions = ["Music"]
-bot = commmands.Bot("?")
+bot = commands.Bot(command_prefix="?",
+status=discord.Status.idle,
+activity=discord.Game(name="Hhhh"))
+
 
 client = discord.Client()
 BOT_TOKEN = 'NTYxNjk1MzcwMDkxMTY3NzQ0.XKAFCQ.Q5wY_ctB3AsD03tYmouethidq44'
